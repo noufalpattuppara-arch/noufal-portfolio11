@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="webBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E131F"/>
+      <stop offset="60%" stop-color="#1A2238"/>
+      <stop offset="100%" stop-color="#2D112B"/>
+    </linearGradient>
+    <linearGradient id="browserBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1F283E"/>
+      <stop offset="100%" stop-color="#2C3857"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#webBg)"/>
+
+  <!-- Geometric Grid Matrix in background -->
+  <g opacity="0.15">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#60A5FA" stroke-width="1"/>
+    </pattern>
+    <rect width="800" height="600" fill="url(#grid)" />
+  </g>
+
+  <!-- Browser Window Mockup Frame -->
+  <g transform="translate(60, 45)" filter="url(#cardShadow)">
+    <!-- Browser Top Bar -->
+    <rect width="680" height="45" rx="10" fill="url(#browserBarGrad)"/>
+    <!-- Window buttons -->
+    <circle cx="25" cy="22" r="6" fill="#EF4444"/>
+    <circle cx="45" cy="22" r="6" fill="#F59E0B"/>
+    <circle cx="65" cy="22" r="6" fill="#10B981"/>
+
+    <!-- URL Bar -->
+    <rect x="100" y="10" width="420" height="25" rx="6" fill="rgba(0,0,0,0.3)"/>
+    <text x="120" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#93C5FD">https://aantappante.ai</text>
+
+    <!-- Browser Main Canvas -->
+    <rect y="45" width="680" height="400" fill="#090D16"/>
+
+    <!-- Web Page Hero inside Mockup -->
+    <!-- Brand Logo in mockup -->
+    <text x="35" y="90" font-family="'Playfair Display', serif" font-size="18" font-weight="700" fill="#FFFFFF">aantappante.ai</text>
+    <!-- Nav pills -->
+    <rect x="520" y="75" width="120" height="28" rx="14" fill="#3B82F6"/>
+    <text x="580" y="93" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Launch Studio</text>
+
+    <!-- Big Headline inside Web Page -->
+    <text x="35" y="160" font-family="'Playfair Display', serif" font-size="34" font-weight="800" fill="#FFFFFF">Next-Gen AI Visuals &amp;</text>
+    <text x="35" y="200" font-family="'Playfair Display', serif" font-size="34" font-weight="800" fill="#60A5FA">Digital Identity Studio</text>
+    <text x="35" y="235" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#94A3B8">High converting brand websites &amp; interactive digital experiences.</text>
+
+    <!-- Interactive Button row -->
+    <rect x="35" y="260" width="140" height="38" rx="8" fill="#3B82F6"/>
+    <text x="105" y="284" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">View Showcase</text>
+
+    <rect x="190" y="260" width="130" height="38" rx="8" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+    <text x="255" y="284" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#E2E8F0" text-anchor="middle">Learn More</text>
+
+    <!-- 3 Mini Cards in mockup -->
+    <rect x="35" y="320" width="180" height="90" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <rect x="50" y="335" width="30" height="30" rx="6" fill="#3B82F6" opacity="0.3"/>
+    <text x="50" y="385" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Fast AI Workflow</text>
+
+    <rect x="235" y="320" width="180" height="90" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <rect x="250" y="335" width="30" height="30" rx="6" fill="#10B981" opacity="0.3"/>
+    <text x="250" y="385" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Brand Identity</text>
+
+    <rect x="435" y="320" width="210" height="90" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <rect x="450" y="335" width="30" height="30" rx="6" fill="#F59E0B" opacity="0.3"/>
+    <text x="450" y="385" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF">Responsive UI</text>
+  </g>
+
+  <!-- Bottom Title Bar -->
+  <rect x="0" y="510" width="800" height="90" fill="rgba(10, 14, 25, 0.95)"/>
+  <text x="35" y="546" font-family="'Playfair Display', serif" font-size="24" font-weight="700" fill="#FFFFFF">Aantappante.ai — Digital Branding &amp; Web Platform</text>
+  <text x="35" y="575" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="500" fill="#60A5FA">Modern Website Development • Responsive Landing Page • Clean UI/UX</text>
+</svg>

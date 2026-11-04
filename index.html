@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammed Noufal — Portfolio | aantappante.ai</title>
+  
+  <meta name="description" content="Portfolio of Muhammed Noufal — Specializing in AI videos, cinematic ads, AI imagery, Meta Ads creatives, and modern website development.">
+  <meta name="keywords" content="Muhammed Noufal, Noufal, AI Video, AI Ads, Meta Ads, Aiora Academy, aantappante.ai, Kling, Nano Banana, Seedance">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Muhammed Noufal — Portfolio">
+  <meta property="og:description" content="Creativity meets AI — turning ideas into reality.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Sticky Navigation Bar
+       ========================================================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <span>Noufal</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Theme Toggle (Paper / Dark Studio) -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle Theme" title="Toggle Light/Dark Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-hire">
+          <span>Hire Noufal</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       Hero Section (Behance Editorial Aesthetic)
+       ========================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      
+      <!-- Top Categories Bar -->
+      <div class="hero-categories-bar">
+        <span><i class="fa-solid fa-video"></i> AI VIDEO</span>
+        <span>•</span>
+        <span><i class="fa-solid fa-rectangle-ad"></i> AD CREATIVES</span>
+        <span>•</span>
+        <span><i class="fa-solid fa-wand-magic-sparkles"></i> AI IMAGERY</span>
+        <span>•</span>
+        <span><i class="fa-brands fa-meta"></i> META ADS</span>
+        <span>•</span>
+        <span><i class="fa-solid fa-code"></i> WEB DEV</span>
+        <span>•</span>
+        <span><i class="fa-solid fa-graduation-cap"></i> AIORA ACADEMY</span>
+      </div>
+
+      <!-- Main Editorial Headline with Script Accent & 3D Retro Prop -->
+      <div class="hero-editorial-header">
+        <div class="hero-title-group">
+          <h1 class="editorial-title">portfolio</h1>
+        </div>
+
+        <!-- Floating 3D Retro Telephone Prop -->
+        <div class="floating-prop-container">
+          <img src="assets/images/retro-telephone.svg" alt="Retro Editorial Telephone Prop" width="340" height="135">
+        </div>
+      </div>
+
+      <!-- Hero Grid: Polaroid Card (Left) + Creator Introduction (Right) -->
+      <div class="hero-grid">
+        
+        <!-- Left: Polaroid Photo Card -->
+        <div class="polaroid-wrapper">
+          <div class="polaroid-card">
+            <!-- Washi Tape Effect -->
+            <div class="polaroid-tape"></div>
+
+            <!-- Polaroid Image Frame -->
+            <div class="polaroid-image-frame" id="polaroidFrame">
+              <img src="assets/images/noufal-avatar.svg" id="creatorAvatarImg" alt="Muhammed Noufal">
+              
+              <label for="avatarFileInput" class="photo-upload-overlay" id="photoUploadBtn" title="Click to upload your own photo">
+                <i class="fa-solid fa-camera"></i>
+                <span>Change Photo</span>
+              </label>
+              <input type="file" id="avatarFileInput" class="hidden-file-input" accept="image/*">
+            </div>
+
+            <!-- Polaroid Footer with Direct Contact List -->
+            <div class="polaroid-footer">
+              <div class="polaroid-caption">Muhammed Noufal</div>
+              
+              <div class="polaroid-contact-list">
+                <a href="https://wa.me/919048045393?text=Hi%20Noufal%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20collaborate!" target="_blank" class="polaroid-contact-item" title="Chat on WhatsApp">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <span>+91 9048045393</span>
+                </a>
+
+                <a href="https://instagram.com/noufelee" target="_blank" class="polaroid-contact-item" title="Visit Instagram Profile">
+                  <i class="fa-brands fa-instagram"></i>
+                  <span>@noufelee</span>
+                </a>
+
+                <a href="http://aantappante.ai" target="_blank" class="polaroid-contact-item" title="Visit aantappante.ai">
+                  <i class="fa-solid fa-globe"></i>
+                  <span>aantappante.ai</span>
+                </a>
+
+                <a href="mailto:wwwnoufalpattuppara@gmail.com" class="polaroid-contact-item" title="Send Email">
+                  <i class="fa-regular fa-envelope"></i>
+                  <span>wwwnoufalpattuppara@gmail.com</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Creator Hero Presentation -->
+        <div class="hero-bio-container">
+          
+          <div class="hero-status-pill">
+            <span class="status-indicator-dot"></span>
+            <span>AVAILABLE FOR FREELANCE &amp; BRAND COMMISSIONS</span>
+          </div>
+
+          <h2 class="hero-main-heading">I'M MUHAMMED NOUFAL!</h2>
+
+          <div class="hero-tagline-quote">
+            “Creativity meets AI — turning ideas into reality.”
+          </div>
+
+          <!-- Quick Specialization Badges -->
+          <div class="hero-badges-row">
+            <div class="hero-badge-item">
+              <i class="fa-solid fa-clapperboard"></i>
+              <span>AI Video &amp; Reels</span>
+            </div>
+            <div class="hero-badge-item">
+              <i class="fa-solid fa-bullseye"></i>
+              <span>High-ROAS Meta Ads</span>
+            </div>
+            <div class="hero-badge-item">
+              <i class="fa-solid fa-image"></i>
+              <span>Photorealistic AI Stills</span>
+            </div>
+            <div class="hero-badge-item">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>Website Development</span>
+            </div>
+          </div>
+
+          <!-- Hero Action CTAs -->
+          <div class="hero-actions-row">
+            <a href="#portfolio" class="btn btn-primary">
+              <i class="fa-solid fa-layer-group"></i>
+              <span>Explore Projects</span>
+            </a>
+
+            <a href="https://wa.me/919048045393?text=Hi%20Noufal%2C%20let%27s%20discuss%20a%20project!" target="_blank" class="btn btn-whatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Chat on WhatsApp</span>
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Torn Paper Divider
+       ========================================================================== -->
+  <div class="torn-divider to-dark">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path fill="currentColor" d="M0,0 L0,28 C25,24 45,35 70,30 C95,25 110,34 135,28 C160,22 180,36 210,31 C240,26 255,18 285,25 C315,32 335,22 365,28 C395,34 415,20 445,26 C475,32 495,24 525,29 C555,34 575,21 605,27 C635,33 655,25 685,22 C715,19 735,35 765,30 C795,25 815,20 845,27 C875,34 895,22 925,28 C955,34 975,20 1005,26 C1035,32 1055,23 1085,28 C1115,33 1135,22 1165,27 C1185,30 1195,25 1200,28 L1200,0 Z"/>
+    </svg>
+  </div>
+
+  <!-- Editorial Section Banner -->
+  <section class="editorial-banner-section">
+    <div class="container">
+      <h2 class="editorial-banner-title">creative visionary</h2>
+    </div>
+  </section>
+
+  <div class="torn-divider to-cream">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path fill="currentColor" d="M0,60 L0,32 C25,36 45,25 70,30 C95,35 110,26 135,32 C160,38 180,24 210,29 C240,34 255,42 285,35 C315,28 335,38 365,32 C395,26 415,40 445,34 C475,28 495,36 525,31 C555,26 575,39 605,33 C635,27 655,35 685,38 C715,41 735,25 765,30 C795,35 815,40 845,33 C875,26 895,38 925,32 C955,26 975,40 1005,34 C1035,28 1055,37 1085,32 C1115,27 1135,38 1165,33 C1185,30 1195,35 1200,32 L1200,60 Z"/>
+    </svg>
+  </div>
+
+  <!-- ==========================================================================
+       About Me Section (Streamlined Visual Pillars)
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Bridging Human Imagination &amp; <span class="highlight">Artificial Intelligence</span></h2>
+      </div>
+
+      <!-- 4 Strategic Pillars as Sleek Badges -->
+      <div class="about-pillars-grid visual-pillars-only">
+        
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <i class="fa-solid fa-film"></i>
+          </div>
+          <h3 class="pillar-title">Cinematic Video</h3>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3 class="pillar-title">High-ROAS Meta Ads</h3>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <i class="fa-solid fa-paint-brush"></i>
+          </div>
+          <h3 class="pillar-title">Photorealistic AI Art</h3>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon-box">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <h3 class="pillar-title">Digital Branding &amp; Web</h3>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Services Section (01 to 06)
+       ========================================================================== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">What I Offer</span>
+        <h2 class="section-title">My Professional <span class="highlight">Services</span></h2>
+      </div>
+
+      <div class="services-grid">
+        
+        <!-- 01. AI Video Creation -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-number">01.</span>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-video"></i>
+            </div>
+          </div>
+          <h3 class="service-title">AI Video Creation</h3>
+          <a href="#contact" class="service-action-link service-inquire-link" data-service-name="01. AI Video Creation">
+            <span>Inquire for AI Video</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- 02. AI Ad Creation -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-number">02.</span>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-rectangle-ad"></i>
+            </div>
+          </div>
+          <h3 class="service-title">AI Ad Creation</h3>
+          <a href="#contact" class="service-action-link service-inquire-link" data-service-name="02. AI Ad Creation">
+            <span>Inquire for AI Ads</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- 03. AI Image Generation -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-number">03.</span>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+          </div>
+          <h3 class="service-title">AI Image Generation</h3>
+          <a href="#contact" class="service-action-link service-inquire-link" data-service-name="03. AI Image Generation">
+            <span>Inquire for AI Images</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- 04. Social Media Content -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-number">04.</span>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-hashtag"></i>
+            </div>
+          </div>
+          <h3 class="service-title">Social Media Content</h3>
+          <a href="#contact" class="service-action-link service-inquire-link" data-service-name="04. Social Media Content">
+            <span>Inquire for Social Media</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- 05. Meta Ads Creative -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-number">05.</span>
+            <div class="service-icon-box">
+              <i class="fa-brands fa-meta"></i>
+            </div>
+          </div>
+          <h3 class="service-title">Meta Ads Creative</h3>
+          <a href="#contact" class="service-action-link service-inquire-link" data-service-name="05. Meta Ads Creative">
+            <span>Inquire for Meta Ads</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- 06. Website Development -->
+        <div class="service-card">
+          <div class="service-card-top">
+            <span class="service-number">06.</span>
+            <div class="service-icon-box">
+              <i class="fa-solid fa-code"></i>
+            </div>
+          </div>
+          <h3 class="service-title">Website Development</h3>
+          <a href="#contact" class="service-action-link service-inquire-link" data-service-name="06. Website Development">
+            <span>Inquire for Web Dev</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Tools & Tech Stack (Strictly Categorized)
+       ========================================================================== -->
+  <section class="tools-section" id="tools">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Creator Toolkit</span>
+        <h2 class="section-title">The AI &amp; Design <span class="highlight">Engines</span></h2>
+      </div>
+
+      <div class="tools-grid">
+        
+        <!-- Category 1: AI (LLMs & Reasoning) -->
+        <div class="tool-category-card">
+          <div class="tool-category-header">
+            <div class="tool-category-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div>
+              <span class="tool-category-tag">Cognitive</span>
+              <h3 class="tool-category-title">AI</h3>
+            </div>
+          </div>
+
+          <div class="tool-items-list">
+            
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">GPT</div>
+                <div class="tool-item-name">ChatGPT</div>
+              </div>
+              <span class="tool-status-pill">Active</span>
+            </div>
+
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">GEM</div>
+                <div class="tool-item-name">Gemini</div>
+              </div>
+              <span class="tool-status-pill">Active</span>
+            </div>
+
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">CLD</div>
+                <div class="tool-item-name">Claude</div>
+              </div>
+              <span class="tool-status-pill">Active</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Category 2: AI IMAGE / VIDEO -->
+        <div class="tool-category-card">
+          <div class="tool-category-header">
+            <div class="tool-category-icon">
+              <i class="fa-solid fa-wand-magic"></i>
+            </div>
+            <div>
+              <span class="tool-category-tag">Visual Synthesis</span>
+              <h3 class="tool-category-title">AI IMAGE / VIDEO</h3>
+            </div>
+          </div>
+
+          <div class="tool-items-list">
+            
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">NB</div>
+                <div class="tool-item-name">Nano Banana</div>
+              </div>
+              <span class="tool-status-pill">Specialist</span>
+            </div>
+
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">OF</div>
+                <div class="tool-item-name">OmniFlash</div>
+              </div>
+              <span class="tool-status-pill">Specialist</span>
+            </div>
+
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">SD</div>
+                <div class="tool-item-name">Seedance</div>
+              </div>
+              <span class="tool-status-pill">Specialist</span>
+            </div>
+
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">KL</div>
+                <div class="tool-item-name">Kling</div>
+              </div>
+              <span class="tool-status-pill">Specialist</span>
+            </div>
+
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">FL</div>
+                <div class="tool-item-name">Flow</div>
+              </div>
+              <span class="tool-status-pill">Specialist</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Category 3: DESIGN / EDITING -->
+        <div class="tool-category-card">
+          <div class="tool-category-header">
+            <div class="tool-category-icon">
+              <i class="fa-solid fa-sliders"></i>
+            </div>
+            <div>
+              <span class="tool-category-tag">Post-Production</span>
+              <h3 class="tool-category-title">DESIGN / EDITING</h3>
+            </div>
+          </div>
+
+          <div class="tool-items-list">
+            
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">CV</div>
+                <div class="tool-item-name">Canva</div>
+              </div>
+              <span class="tool-status-pill">Proficient</span>
+            </div>
+
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">CC</div>
+                <div class="tool-item-name">CapCut</div>
+              </div>
+              <span class="tool-status-pill">Proficient</span>
+            </div>
+
+            <div class="tool-item-badge">
+              <div class="tool-item-info">
+                <div class="tool-item-glyph">LR</div>
+                <div class="tool-item-name">Lightroom</div>
+              </div>
+              <span class="tool-status-pill">Proficient</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Torn Paper Edge to Dark Banner (Image 2 style)
+       ========================================================================== -->
+  <div class="torn-divider to-dark">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path fill="currentColor" d="M0,0 L0,28 C25,24 45,35 70,30 C95,25 110,34 135,28 C160,22 180,36 210,31 C240,26 255,18 285,25 C315,32 335,22 365,28 C395,34 415,20 445,26 C475,32 495,24 525,29 C555,34 575,21 605,27 C635,33 655,25 685,22 C715,19 735,35 765,30 C795,25 815,20 845,27 C875,34 895,22 925,28 C955,34 975,20 1005,26 C1035,32 1055,23 1085,28 C1115,33 1135,22 1165,27 C1185,30 1195,25 1200,28 L1200,0 Z"/>
+    </svg>
+  </div>
+
+  <section class="editorial-banner-section">
+    <div class="container">
+      <h2 class="editorial-banner-title">advertising creatives</h2>
+    </div>
+  </section>
+
+  <div class="torn-divider to-cream">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+      <path fill="currentColor" d="M0,60 L0,32 C25,36 45,25 70,30 C95,35 110,26 135,32 C160,38 180,24 210,29 C240,34 255,42 285,35 C315,28 335,38 365,32 C395,26 415,40 445,34 C475,28 495,36 525,31 C555,26 575,39 605,33 C635,27 655,35 685,38 C715,41 735,25 765,30 C795,35 815,40 845,33 C875,26 895,38 925,32 C955,26 975,40 1005,34 C1035,28 1055,37 1085,32 C1115,27 1135,38 1165,33 C1185,30 1195,35 1200,32 L1200,60 Z"/>
+    </svg>
+  </div>
+
+  <!-- ==========================================================================
+       Portfolio / Projects Section (Visual Grid - Inspired by Image 2)
+       ========================================================================== -->
+  <section class="projects-section" id="portfolio">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Featured Portfolio</span>
+        <h2 class="section-title">Selected Works &amp; <span class="highlight">Experiments</span></h2>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="video">01. AI Video Projects</button>
+        <button class="filter-btn" data-filter="ad">02. AI Advertisement Projects</button>
+        <button class="filter-btn" data-filter="image">03. AI Image &amp; Poster Design</button>
+      </div>
+
+      <!-- Projects Visual Grid -->
+      <div class="projects-grid visual-grid-only">
+        
+        <!-- Project 1: AI Video (Luxury Jewellery Commercial) -->
+        <div class="project-card" data-category="video">
+          <div class="project-thumbnail-wrapper open-modal-trigger" data-project-id="proj-vid-1">
+            <span class="project-category-badge">01. AI VIDEO</span>
+            <video src="assets/videos/jewellery.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+            <div class="project-action-overlay">
+              <button class="view-project-btn">
+                <i class="fa-solid fa-play"></i>
+                <span>Play Video</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Luxury Jewellery: AI Commercial Reel</h3>
+          </div>
+        </div>
+
+        <!-- Project 2: AI Video (Luxury Perfume Commercial Trailer) -->
+        <div class="project-card" data-category="video">
+          <div class="project-thumbnail-wrapper open-modal-trigger" data-project-id="proj-vid-2">
+            <span class="project-category-badge">01. AI VIDEO</span>
+            <video src="assets/videos/perfume.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+            <div class="project-action-overlay">
+              <button class="view-project-btn">
+                <i class="fa-solid fa-play"></i>
+                <span>Play Video</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Luxury Perfume: AI Cinematic Trailer</h3>
+          </div>
+        </div>
+
+        <!-- Project 3: AI Ad (Artisan Chocolate Commercial) -->
+        <div class="project-card" data-category="ad">
+          <div class="project-thumbnail-wrapper open-modal-trigger" data-project-id="proj-ad-1">
+            <span class="project-category-badge">02. AI AD CREATIVE</span>
+            <video src="assets/videos/chocolate.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+            <div class="project-action-overlay">
+              <button class="view-project-btn">
+                <i class="fa-solid fa-play"></i>
+                <span>Play Video</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Artisan Chocolate: AI Product Commercial</h3>
+          </div>
+        </div>
+
+        <!-- Project 4: AI Ad (Energy Drink Commercial) -->
+        <div class="project-card" data-category="ad">
+          <div class="project-thumbnail-wrapper open-modal-trigger" data-project-id="proj-ad-2">
+            <span class="project-category-badge">02. AI AD CREATIVE</span>
+            <video src="assets/videos/energy_drink.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+            <div class="project-action-overlay">
+              <button class="view-project-btn">
+                <i class="fa-solid fa-play"></i>
+                <span>Play Video</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Aura Energy Drink: High-ROAS AI Ad</h3>
+          </div>
+        </div>
+
+        <!-- Project 5: AI Image (Elysian Flora Editorial Poster) -->
+        <div class="project-card" data-category="image">
+          <div class="project-thumbnail-wrapper open-modal-trigger" data-project-id="proj-img-1">
+            <span class="project-category-badge">03. AI IMAGE &amp; POSTER</span>
+            <img src="assets/images/project-image-1.svg" alt="Elysian Flora Surreal AI Portrait">
+            <div class="project-action-overlay">
+              <button class="view-project-btn">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>View Artwork</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Elysian Flora: Surreal AI Portrait &amp; Poster</h3>
+          </div>
+        </div>
+
+        <!-- Project 6: AI Image (Ronin 2099 Concept Art) -->
+        <div class="project-card" data-category="image">
+          <div class="project-thumbnail-wrapper open-modal-trigger" data-project-id="proj-img-2">
+            <span class="project-category-badge">03. AI IMAGE &amp; POSTER</span>
+            <img src="assets/images/project-image-2.svg" alt="Ronin 2099 Cyber Character Design">
+            <div class="project-action-overlay">
+              <button class="view-project-btn">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                <span>View Artwork</span>
+              </button>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Ronin 2099: Cyber Concept Character &amp; Poster</h3>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- ==========================================================================
+       Testimonials / Client Reviews
+       ========================================================================== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">Client <span class="highlight">Reviews</span></h2>
+      </div>
+
+      <div class="testimonial-featured-box">
+        <span class="testimonial-quote-mark">“</span>
+        
+        <p class="testimonial-quote-text">
+          Turned our ideas into stunning visuals. Truly impressive creativity and quality.
+        </p>
+
+        <div class="testimonial-stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <div class="testimonial-author-name">Verified Brand Client</div>
+        <div class="testimonial-author-meta">E-Commerce &amp; Social Campaign Partner</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact Me Section
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Create Something <span class="highlight">Extraordinary</span></h2>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Left: Direct Contact Information Cards -->
+        <div class="contact-info-panel">
+          
+          <!-- Phone / WhatsApp -->
+          <div class="contact-card-item">
+            <div class="contact-card-left">
+              <div class="contact-icon-box">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">Phone / WhatsApp</div>
+                <a href="https://wa.me/919048045393?text=Hi%20Noufal%2C%20let%27s%20talk%20about%20a%20project!" target="_blank" class="contact-card-value">
+                  +91 9048045393
+                </a>
+              </div>
+            </div>
+            <button class="copy-btn copy-trigger" data-copy="+91 9048045393" title="Copy Phone Number">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+
+          <!-- Instagram -->
+          <div class="contact-card-item">
+            <div class="contact-card-left">
+              <div class="contact-icon-box">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">Instagram</div>
+                <a href="https://instagram.com/noufelee" target="_blank" class="contact-card-value">
+                  @noufelee
+                </a>
+              </div>
+            </div>
+            <a href="https://instagram.com/noufelee" target="_blank" class="copy-btn" title="Open Instagram">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- Website -->
+          <div class="contact-card-item">
+            <div class="contact-card-left">
+              <div class="contact-icon-box">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">Website / Portfolio</div>
+                <a href="http://aantappante.ai" target="_blank" class="contact-card-value">
+                  aantappante.ai
+                </a>
+              </div>
+            </div>
+            <a href="http://aantappante.ai" target="_blank" class="copy-btn" title="Open Website">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <!-- Email -->
+          <div class="contact-card-item">
+            <div class="contact-card-left">
+              <div class="contact-icon-box">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">Email Address</div>
+                <a href="mailto:wwwnoufalpattuppara@gmail.com" class="contact-card-value">
+                  wwwnoufalpattuppara@gmail.com
+                </a>
+              </div>
+            </div>
+            <button class="copy-btn copy-trigger" data-copy="wwwnoufalpattuppara@gmail.com" title="Copy Email Address">
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Right: Interactive Project Inquiry Form -->
+        <div class="contact-form-card">
+          <form id="projectInquiryForm">
+            
+            <div class="form-group-row">
+              <div class="form-group">
+                <label class="form-label" for="senderName">Your Name / Brand</label>
+                <input type="text" id="senderName" class="form-control" placeholder="Name" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="senderContact">Your Email or Phone</label>
+                <input type="text" id="senderContact" class="form-control" placeholder="Email or Phone" required>
+              </div>
+            </div>
+
+            <div class="form-group-row">
+              <div class="form-group">
+                <label class="form-label" for="serviceSelect">Service Required</label>
+                <select id="serviceSelect" class="form-control">
+                  <option value="01. AI Video Creation">01. AI Video Creation</option>
+                  <option value="02. AI Ad Creation">02. AI Ad Creation</option>
+                  <option value="03. AI Image Generation">03. AI Image Generation</option>
+                  <option value="04. Social Media Content">04. Social Media Content</option>
+                  <option value="05. Meta Ads Creative">05. Meta Ads Creative</option>
+                  <option value="06. Website Development">06. Website Development</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="budgetSelect">Estimated Budget</label>
+                <select id="budgetSelect" class="form-control">
+                  <option value="Flexible / Discuss">Flexible / Discuss</option>
+                  <option value="Under $250 / ₹20,000">Under $250 / ₹20,000</option>
+                  <option value="$250 - $750 / ₹20k - ₹60k">$250 - $750 / ₹20k - ₹60k</option>
+                  <option value="$750 - $2,000+ / ₹60k+">$750 - $2,000+ / ₹60k+</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="projectMessage">Message</label>
+              <textarea id="projectMessage" class="form-control" placeholder="Brief project description..."></textarea>
+            </div>
+
+            <div class="form-buttons-row">
+              <button type="button" class="btn btn-whatsapp" id="sendWhatsAppBtn" style="flex: 1;">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Send to WhatsApp</span>
+              </button>
+
+              <button type="button" class="btn btn-primary" id="sendEmailBtn" style="flex: 1;">
+                <i class="fa-regular fa-paper-plane"></i>
+                <span>Send via Email</span>
+              </button>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Muhammed Noufal</h3>
+          <p>Aiora Academy • aantappante.ai</p>
+        </div>
+
+        <div class="footer-social-links">
+          <a href="https://wa.me/919048045393" target="_blank" class="footer-social-btn" title="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://instagram.com/noufelee" target="_blank" class="footer-social-btn" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="http://aantappante.ai" target="_blank" class="footer-social-btn" title="Website">
+            <i class="fa-solid fa-globe"></i>
+          </a>
+          <a href="mailto:wwwnoufalpattuppara@gmail.com" class="footer-social-btn" title="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2024–2026 Muhammed Noufal. Creativity meets AI — turning ideas into reality.
+        </div>
+        <button class="back-to-top-btn" id="backToTopBtn">
+          <span>Back to Top</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Project Details Lightbox Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true">
+    <div class="modal-content-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-body">
+        <div class="modal-media-container">
+          <img src="" id="modalImage" alt="Project Preview">
+        </div>
+
+        <span class="modal-category" id="modalCategory">01. AI VIDEO</span>
+        <h3 class="modal-title" id="modalTitle">Project Title</h3>
+
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+          <button class="btn btn-primary" id="modalHireBtn" style="flex: 1;">
+            <i class="fa-solid fa-sparkles"></i>
+            <span>Inquire for Similar Project</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Engine -->
+  <script src="js/main.js"></script>
+</body>
+</html>

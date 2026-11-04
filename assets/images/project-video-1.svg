@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vid1_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090514"/>
+      <stop offset="50%" stop-color="#1B0C33"/>
+      <stop offset="100%" stop-color="#3B092B"/>
+    </linearGradient>
+    <radialGradient id="vid1_glow" cx="60%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FF2E93" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#7928CA" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#7000FF"/>
+    </linearGradient>
+    <filter id="neonBlur">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#vid1_bg)"/>
+  <rect width="800" height="600" fill="url(#vid1_glow)"/>
+
+  <!-- Futuristic Cinematic Cityscape grid -->
+  <g opacity="0.35">
+    <line x1="0" y1="450" x2="800" y2="450" stroke="#00F0FF" stroke-width="1.5"/>
+    <line x1="0" y1="500" x2="800" y2="500" stroke="#00F0FF" stroke-width="1"/>
+    <line x1="0" y1="540" x2="800" y2="540" stroke="#00F0FF" stroke-width="1"/>
+    <line x1="0" y1="570" x2="800" y2="570" stroke="#00F0FF" stroke-width="0.8"/>
+    <line x1="400" y1="360" x2="0" y2="600" stroke="#00F0FF" stroke-width="1"/>
+    <line x1="400" y1="360" x2="160" y2="600" stroke="#00F0FF" stroke-width="1"/>
+    <line x1="400" y1="360" x2="320" y2="600" stroke="#00F0FF" stroke-width="1"/>
+    <line x1="400" y1="360" x2="480" y2="600" stroke="#00F0FF" stroke-width="1"/>
+    <line x1="400" y1="360" x2="640" y2="600" stroke="#00F0FF" stroke-width="1"/>
+    <line x1="400" y1="360" x2="800" y2="600" stroke="#00F0FF" stroke-width="1"/>
+  </g>
+
+  <!-- Cyberpunk character silhouette with neon halo -->
+  <circle cx="400" cy="270" r="160" fill="none" stroke="url(#neonCyan)" stroke-width="3" filter="url(#neonBlur)"/>
+  <circle cx="400" cy="270" r="130" fill="#140726" stroke="#FF2E93" stroke-width="1"/>
+  
+  <!-- Stylized AI Cyber Character -->
+  <path d="M340,420 C340,340 370,320 400,320 C430,320 460,340 460,420 Z" fill="#0D031A"/>
+  <ellipse cx="400" cy="250" rx="45" ry="65" fill="#0D031A"/>
+  <!-- Glowing Cyber Visor -->
+  <path d="M365,240 L435,240 L430,255 L370,255 Z" fill="#00F0FF" filter="url(#neonBlur)"/>
+  <line x1="375" y1="247" x2="425" y2="247" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Play Reel Overlay Button -->
+  <g transform="translate(400, 270)">
+    <circle r="46" fill="rgba(0, 0, 0, 0.6)" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9"/>
+    <polygon points="-12,-20 22,0 -12,20" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Cinematic Film Metadata bar -->
+  <rect x="0" y="0" width="800" height="50" fill="rgba(0,0,0,0.6)"/>
+  <text x="35" y="32" font-family="'Courier New', monospace" font-size="14" font-weight="700" fill="#00F0FF" letter-spacing="2">AI VIDEO ENGINE: KLING 1.5 PRO</text>
+  <text x="680" y="32" font-family="'Courier New', monospace" font-size="14" font-weight="700" fill="#FF2E93" letter-spacing="2">4K 60FPS</text>
+
+  <!-- Bottom title card -->
+  <rect x="0" y="510" width="800" height="90" fill="rgba(10, 4, 18, 0.85)"/>
+  <text x="35" y="546" font-family="'Playfair Display', serif" font-size="24" font-weight="700" fill="#FFFFFF">Cyberpunk Neo-Tokyo: AI Cinematic Reel</text>
+  <text x="35" y="575" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" fill="#A799B7">Storyboarding • Character Consistency • Audio & Sound FX in CapCut</text>
+</svg>
