@@ -1,5 +1,5 @@
 # Muhammed Noufal — Personal Portfolio Website
-### AI Content Creator • Aiora Academy • aantappante.ai
+### AI Content Creator • Aiora Academy • @aantappante.ai
 
 A personal portfolio website created for **Muhammed Noufal**, an aspiring AI Content Creator.
 
@@ -43,12 +43,11 @@ Inspired by Behance vintage-editorial aesthetics (warm cream paper parchment, de
    - **Client Testimonial**: Featured review quote with 5-star rating.
    - **Logofolio & Brand Identity Grid**: Minimalist mark showcase inspired by Behance reference.
 
-4. **Direct Contact & WhatsApp Integration**:
-   - 📞 WhatsApp: `+91 9048045393` (Direct chat link + pre-formatted message generator)
-   - 📸 Instagram: `@noufelee`
-   - 🌐 Website: `aantappante.ai`
+4. **Direct Contact & Socials**:
+   - 📞 WhatsApp: `+91 9048045393` (Direct chat link)
+   - 📸 Instagram (AI Brand): `@aantappante.ai` (https://instagram.com/aantappante.ai)
+   - 📸 Instagram (Personal): `@noufelee` (https://instagram.com/noufelee)
    - ✉️ Email: `wwwnoufalpattuppara@gmail.com` (1-click copy button + mailto)
-   - Interactive Inquiry Form with instant WhatsApp message generation!
 
 ---
 
