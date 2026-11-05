@@ -2,10 +2,10 @@
 title Push Noufal Portfolio to GitHub
 echo ====================================================
 echo Pushing Noufal Portfolio to GitHub...
-echo Repository: https://github.com/noufalpattuppara-arch/noufal-portfolio1.git
+echo Repository: https://github.com/noufalpattuppara-arch/noufal-portfolio11.git
 echo ====================================================
 echo.
-git remote set-url origin https://github.com/noufalpattuppara-arch/noufal-portfolio1.git
+git remote set-url origin https://github.com/noufalpattuppara-arch/noufal-portfolio11.git
 git branch -M main
 git add .
 git commit -m "Update portfolio for Muhammed Noufal"
