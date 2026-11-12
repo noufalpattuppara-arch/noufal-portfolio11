@@ -196,15 +196,6 @@ const projectData = {
     tools: 'AI Video Synthesis, CapCut Audio Design',
     showcase: 'E-commerce ads, beverage commercials, 3.8x ROAS conversion visuals',
     promptSnippet: 'high-velocity dynamic commercial of glowing neon energy drink can splashing through icy crystal water droplets, volumetric green rim light, 4k 60fps'
-  },
-  'proj-img-2': {
-    title: 'Ronin 2099: Cyber Concept Character & Poster',
-    category: '03. AI Image & Poster Design',
-    image: 'assets/images/project-image-2.svg',
-    description: 'Hyper-detailed futuristic character poster featuring custom cyber armor, neon katana illumination, and dramatic crimson backlighting. Ideal for gaming brands, digital collectibles, and streetwear prints.',
-    tools: 'Nano Banana, Kling Engine, Lightroom Color Correction',
-    showcase: 'AI concept art, digital artwork, creative posters',
-    promptSnippet: 'futuristic cybernetic samurai armor, glowing ruby red visor, dark crimson ambient smoke, Japanese calligraphy accents, gritty texture --ar 4:5'
   }
 };
 
