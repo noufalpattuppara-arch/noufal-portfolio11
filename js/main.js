@@ -197,15 +197,6 @@ const projectData = {
     showcase: 'E-commerce ads, beverage commercials, 3.8x ROAS conversion visuals',
     promptSnippet: 'high-velocity dynamic commercial of glowing neon energy drink can splashing through icy crystal water droplets, volumetric green rim light, 4k 60fps'
   },
-  'proj-img-1': {
-    title: 'Elysian Flora: Surreal AI Portrait & Poster',
-    category: '03. AI Image & Poster Design',
-    image: 'assets/images/project-image-1.svg',
-    description: 'Avant-garde surrealist art poster fusing floral organic elements with modern AI portraiture. Crafted for high-fashion editorial digital magazines, print collaterals, and brand lookbooks.',
-    tools: 'Flow, Nano Banana, Lightroom, Canva',
-    showcase: 'AI portraits, promotional posters, product visuals',
-    promptSnippet: 'editorial vogue cover photograph of elegant muse surrounded by blooming celestial coral and gold leaf, high fashion makeup, soft daylight, 8k resolution'
-  },
   'proj-img-2': {
     title: 'Ronin 2099: Cyber Concept Character & Poster',
     category: '03. AI Image & Poster Design',
