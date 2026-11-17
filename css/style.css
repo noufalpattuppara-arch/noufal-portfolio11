@@ -556,34 +556,6 @@ button, input, textarea, select {
   transform: scale(1.04);
 }
 
-/* Quick photo upload button overlay */
-.photo-upload-overlay {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(4px);
-  color: #fff;
-  border: 1px solid rgba(255,255,255,0.2);
-  padding: 0.35rem 0.7rem;
-  border-radius: var(--radius-full);
-  font-size: 0.75rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
-  cursor: pointer;
-  transition: var(--transition-fast);
-}
-
-.photo-upload-overlay:hover {
-  background: var(--burgundy-700);
-}
-
-.hidden-file-input {
-  display: none;
-}
-
 /* Polaroid Footer & Direct Contacts */
 .polaroid-footer {
   margin-top: 1.25rem;

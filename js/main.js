@@ -6,7 +6,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   initThemeToggle();
   initMobileNav();
-  initPhotoUploader();
   initProjectFiltering();
   initProjectModal();
   initContactForm();
@@ -71,54 +70,7 @@ function initMobileNav() {
 }
 
 // ==========================================================================
-// 3. Polaroid Custom Photo Upload & Persistence
-// ==========================================================================
-function initPhotoUploader() {
-  const fileInput = document.getElementById('avatarFileInput');
-  const avatarImg = document.getElementById('creatorAvatarImg');
-  const uploadOverlay = document.getElementById('photoUploadBtn');
-
-  if (!fileInput || !avatarImg) return;
-
-  // Load saved photo if exists
-  const savedAvatar = localStorage.getItem('noufal_avatar_photo');
-  if (savedAvatar) {
-    avatarImg.src = savedAvatar;
-  }
-
-  if (uploadOverlay) {
-    uploadOverlay.addEventListener('click', (e) => {
-      e.stopPropagation();
-      fileInput.click();
-    });
-  }
-
-  fileInput.addEventListener('change', (e) => {
-    const file = e.target.files[0];
-    if (file) {
-      if (!file.type.startsWith('image/')) {
-        showToast('Please select a valid image file (PNG/JPG/WEBP).');
-        return;
-      }
-
-      const reader = new FileReader();
-      reader.onload = function(evt) {
-        const base64Data = evt.target.result;
-        avatarImg.src = base64Data;
-        try {
-          localStorage.setItem('noufal_avatar_photo', base64Data);
-          showToast('Photo updated successfully!');
-        } catch (err) {
-          showToast('Photo displayed! (File was large for local cache)');
-        }
-      };
-      reader.readAsDataURL(file);
-    }
-  });
-}
-
-// ==========================================================================
-// 4. Project Filtering
+// 3. Project Filtering
 // ==========================================================================
 function initProjectFiltering() {
   const filterBtns = document.querySelectorAll('.filter-btn');
