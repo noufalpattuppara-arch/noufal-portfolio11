@@ -44,9 +44,8 @@
 
   /* Fonts */
   --font-serif: 'Playfair Display', Georgia, serif;
-  --font-classic: 'Cinzel', 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-title: 'Cinzel', 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-title: 'PP Palma', 'Palma', 'Syne', 'Plus Jakarta Sans', -apple-system, sans-serif;
   --font-script: 'Caveat', 'Playwrite GB S', cursive;
   --font-mono: 'Space Mono', 'Courier New', monospace;
 
@@ -159,25 +158,29 @@ button, input, textarea, select {
 .font-script { font-family: var(--font-script); }
 .font-mono { font-family: var(--font-mono); }
 
-/* Custom / Local Stanley Sans Support */
+/* Custom / Local PP Palma Support */
 @font-face {
-  font-family: 'Stanley Sans';
-  src: url('../assets/fonts/StanleySans-Bold.woff2') format('woff2'),
-       url('../assets/fonts/StanleySans.woff2') format('woff2'),
-       url('../assets/fonts/StanleySans.ttf') format('truetype'),
-       local('Stanley Sans'),
-       local('StanleySans');
-  font-weight: 700 800;
+  font-family: 'PP Palma';
+  src: url('../assets/fonts/PPPalma-Bold.woff2') format('woff2'),
+       url('../assets/fonts/PPPalma-Black.woff2') format('woff2'),
+       url('../assets/fonts/PPPalma-Bold.otf') format('opentype'),
+       url('../assets/fonts/PPPalma-Bold.ttf') format('truetype'),
+       url('../assets/fonts/Palma.woff2') format('woff2'),
+       url('../assets/fonts/Palma.ttf') format('truetype'),
+       local('PP Palma'),
+       local('PPPalma'),
+       local('Palma');
+  font-weight: 700 900;
   font-display: swap;
 }
 
 .editorial-title {
   font-family: var(--font-title);
-  font-size: clamp(2.6rem, 7vw, 6rem);
-  font-weight: 800;
+  font-size: clamp(2.8rem, 7.8vw, 6.4rem);
+  font-weight: 900;
   color: var(--burgundy-700);
-  line-height: 1.0;
-  letter-spacing: 0.04em;
+  line-height: 0.9;
+  letter-spacing: -0.04em;
   text-transform: uppercase;
 }
 
@@ -658,10 +661,10 @@ button, input, textarea, select {
 .hero-main-heading {
   font-family: var(--font-title);
   font-size: clamp(2.4rem, 5.2vw, 4rem);
-  font-weight: 800;
+  font-weight: 900;
   color: var(--burgundy-700);
-  line-height: 1.05;
-  letter-spacing: 0.02em;
+  line-height: 1.0;
+  letter-spacing: -0.03em;
 }
 
 .hero-tagline-quote {
