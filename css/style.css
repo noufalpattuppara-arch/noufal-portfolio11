@@ -46,6 +46,7 @@
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-title: 'Stanley Sans', 'Urbanist', 'Outfit', 'Plus Jakarta Sans', -apple-system, sans-serif;
+  --font-heading: 'Alcyone', 'League Spartan', 'Outfit', 'Plus Jakarta Sans', -apple-system, sans-serif;
   --font-script: 'Caveat', 'Playwrite GB S', cursive;
   --font-mono: 'Space Mono', 'Courier New', monospace;
 
@@ -167,6 +168,23 @@ button, input, textarea, select {
        local('Stanley Sans'),
        local('StanleySans');
   font-weight: 700 800;
+  font-display: swap;
+}
+
+/* Custom / Local Alcyone Support */
+@font-face {
+  font-family: 'Alcyone';
+  src: url('../assets/fonts/Alcyone-Bold.woff2') format('woff2'),
+       url('../assets/fonts/Alcyone-Black.woff2') format('woff2'),
+       url('../assets/fonts/Alcyone.woff2') format('woff2'),
+       url('../assets/fonts/Alcyone-Bold.otf') format('opentype'),
+       url('../assets/fonts/Alcyone-Bold.ttf') format('truetype'),
+       url('../assets/fonts/Alcyone.ttf') format('truetype'),
+       local('Alcyone Bold'),
+       local('Alcyone-Bold'),
+       local('Alcyone Black'),
+       local('Alcyone');
+  font-weight: 700 900;
   font-display: swap;
 }
 
@@ -655,9 +673,9 @@ button, input, textarea, select {
 }
 
 .hero-main-heading {
-  font-family: var(--font-title);
+  font-family: var(--font-heading);
   font-size: clamp(2.4rem, 5.2vw, 4rem);
-  font-weight: 700;
+  font-weight: 800;
   color: var(--burgundy-700);
   line-height: 1.05;
   letter-spacing: -0.02em;
